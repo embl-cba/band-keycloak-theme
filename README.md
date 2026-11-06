@@ -19,3 +19,10 @@ code MIT).
 
 The BAND deployment ([embl-cba/band](https://github.com/embl-cba/band), role
 `keycloak`) builds it from a tag of this repository into its Keycloak image.
+
+## Variants
+
+- `main` / `v1.0.0`: the de.NBI Tübingen BAND (Google and LS AAI).
+- `cesnet` / `v1.0.0-cesnet`: the CESNET BAND: CESNET, EGI and NFDI logos in
+  the header, an EGI login button, LS AAI as a text button with a note on
+  registering via LS Login.

@@ -43,7 +43,10 @@
               <img src="${url.resourcesPath}/img/embl_logo.png" width="110px" height="50px"  alt="${msg("loginTitleHtml",(realm.displayName!''))?no_esc}" />
               <img src="${url.resourcesPath}/img/eubi_logo.png" width="110px" height="75px"  alt="${msg("loginTitleHtml",(realm.displayName!''))?no_esc}" />
               <img src="${url.resourcesPath}/img/logo.png" width="110px" height="90px"  alt="${msg("loginTitleHtml",(realm.displayName!''))?no_esc}" />
-              <img src="${url.resourcesPath}/img/denbi-logo-color.svg" width="110px" height="90px"  alt="${msg("loginTitleHtml",(realm.displayName!''))?no_esc}" />
+              <img src="${url.resourcesPath}/img/cesnet.png" width="90px" height="50px"  alt="${msg("loginTitleHtml",(realm.displayName!''))?no_esc}" />
+              <img src="${url.resourcesPath}/img/egi.png" width="90px" height="70px"  alt="${msg("loginTitleHtml",(realm.displayName!''))?no_esc}" />
+              <img src="${url.resourcesPath}/img/nfdi.png" width="130px" height="50px"  alt="${msg("loginTitleHtml",(realm.displayName!''))?no_esc}" />
+
             </div>
           </div>
         </div>
@@ -95,6 +98,10 @@
           </div>
         </div>
     <div style="text-align:center" class="${properties.kcSignUpClass!}">
+        <p>
+            If your institution is part of LSAAI, it is recommended to register via LSLOGIN and use it to log in. Follow the instructions <a href="https://www.lifescience-ri.eu/ls-login-and-registration-guide/" target="_blank">here</a>.
+        </p>
+
         <p>By continuing to login, you agree to our <a href="https://www.embl.org/info/privacy-policy/" target="_blank">Privacy Policy</a> and <a href="https://vd-portal.embl.de/#/accesspolicy" target="_blank">Terms and Conditions</a> </p>
     </div>
 

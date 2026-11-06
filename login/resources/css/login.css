@@ -48,7 +48,7 @@ label {
     margin-bottom:2rem;
 }
 div.kc-logo-text {
-    width: 510px;
+    width: 770px;
     height:42px;
 }
 #kc-header {
@@ -101,9 +101,36 @@ div.kc-logo-text {
 #kc-social-providers a#lsaai {
    background-color: #fff;
    border: 1px solid #fff;
-   background-image: url(../img/lsaai.svg);
+   /*background-image: url(../img/lsaai.svg);*/
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   min-height: 40px;
+   padding: 0 12px;
 }
 
+/* placeholder for the icon */
+#kc-social-providers a#lsaai::before {
+   content: "LS Login (EOSC AAI)";          /* placeholder text */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 168px;
+   height: 24px;
+   flex-shrink: 0;
+   font-size: 14px;
+   font-weight: bold;
+   color: #666;
+   border: 1px dashed #ccc;    /* optional: shows the holder's outline */
+   border-radius: 4px;
+}
+
+#kc-social-providers a#egi {
+   background-color: #454c7d;
+   border: 1px solid #fff;
+   background-image: url(../img/egi.png);
+   background-size: 50px 47px;
+}
 
 #kc-header {
     height:150px;
